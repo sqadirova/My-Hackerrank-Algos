@@ -6,7 +6,18 @@ import java.util.List;
 public class BirthdayChocolateApp {
 
     static int birthday(List<Integer> s, int d, int m) {
-       throw  new IllegalArgumentException("Must be implemented");
+        int ways=0;
+        int sum=0;
+        if (m<=s.size()){
+            for (int i = 0; i < m; i++) {
+                sum+=s.get(i);
+            }
+            if (sum==d) ways++;
+        }
+
+        return ways;
+
+//       throw  new IllegalArgumentException("Must be implemented");
     }
 
     public static void main(String[] args) {

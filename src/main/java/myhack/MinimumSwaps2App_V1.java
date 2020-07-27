@@ -1,6 +1,6 @@
 package myhack;
 
-import lombok.ToString;
+//import lombok.ToString;
 
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 
 public class MinimumSwaps2App_V1 {
 
-  @ToString
+//  @ToString
   static class Pair<A, B> {
     final A a;
     final B b;
